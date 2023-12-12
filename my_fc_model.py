@@ -1,5 +1,4 @@
 from itertools import pairwise
-from tkinter import X
 import torch
 import torch.nn.functional as F
 from torch import nn, optim
