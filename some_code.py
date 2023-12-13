@@ -91,6 +91,8 @@ class FeaturesExtractor(nn.Module):
             torch.Tensor: _description_
         """
         outputs = self.featurizer(inputs)
+        if type(outputs) != Tensor:
+            outputs = outputs.logits # googlenet and inception use namedtuple as output
         if outputs.dim() == 4:
             outputs = torch.nn.functional.adaptive_avg_pool2d(outputs, output_size=(1,1))
             outputs = torch.squeeze(outputs, dim = tuple(range(2, outputs.dim())))
@@ -241,5 +243,60 @@ def ToTensor_and_Resize(n):
     transforms_needed = transforms.Compose([
         transforms.ToTensor(),
         transforms.Resize(n, antialias=True),
+        transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225]),
     ])
     return transforms_needed
+
+def model_trainer(model: FeaturesExtractor, 
+                 inputs: Tensor, 
+                 match_targets:Tensor, 
+                 labels: Tensor,  
+                 match_labels:Tensor,  
+                 k_in_topk = 5,
+                 iter_num = 15,
+                 learn_rate = 0.00005,
+                 show_progress = False):
+    """refactor for better readbility
+
+    Args:
+        model (FeaturesExtractor): model to be trained
+        inputs (Tensor): tensors for query photos
+        match_targets (Tensor): tensors for  targets photos
+        labels (Tensor): label
+        match_labels (Tensor): 
+        k_in_topk (int, optional): k in topk function. Defaults to 5.
+        iter_num (int, optional): how many cycle to train. Defaults to 15.
+        learn_rate (float, optional): learn_rate. Defaults to 0.00005.
+        show_progress (bool, optional): show_progress . Defaults to False.
+
+    Returns:
+        _type_: _description_
+    """
+    
+    loss_tracking, error_rate_tracking = [], []
+    with torch.no_grad():
+        model.eval()
+        topk_error_rate, _ = error_rate(labels, match_labels, model(inputs), model(match_targets), k = k_in_topk)
+        error_rate_tracking.append(topk_error_rate)
+
+    optimizer = optim.Adam(model.parameters(), lr = learn_rate)
+    criterion = PairwiseDotproducts() # sum of pairwaise dot-product as loss function
+
+    for iter_index in range(iter_num):
+        model.train()
+        match_sapce = model(match_targets)
+        loss = criterion(match_sapce)
+        optimizer.zero_grad()
+        loss.backward()
+        optimizer.step()
+        loss_tracking.append(loss.item())
+
+        with torch.no_grad():
+            model.eval()
+            topk_error_rate, _ = error_rate(labels, match_labels, model(inputs), model(match_targets), k = 5)
+            error_rate_tracking.append(topk_error_rate)
+
+        if show_progress:
+            print(f"iter {iter_index} done", end=" ")
+    
+    return loss_tracking,error_rate_tracking
