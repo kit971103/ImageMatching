@@ -1,13 +1,13 @@
 import torch
 from torch import Tensor, nn, optim
-from torchvision import transforms
+from torchvision import transforms, models
 
 from PIL import Image
 from matplotlib import pyplot as plt
 from pathlib import Path
 import pandas as pd
 
-models_list
+
 
 class FeaturesExtractor(nn.Module):
     def __init__(self, model_constructor, weights = None, frozen = True) -> None:
@@ -301,3 +301,12 @@ def show_helper(title: str, input_files: list[Path], labels: Tensor, top_classes
             newax.set_title(f"top {i-2}")
             newax.axis("off")
             plt.imshow(predecition)
+
+models_list = dict(
+    AlexNet=models.alexnet,
+    ConvNeXt=models.convnext_tiny,
+    EfficientNet=models.efficientnet_b0,
+    GoogLeNet=models.googlenet,
+)
+
+transforms_default = ToTensor_and_Resize(224)
