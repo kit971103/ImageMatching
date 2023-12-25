@@ -10,3 +10,185 @@
 21/12/23 10:10:02 PM DEBUG Opened App
 21/12/23 10:10:08 PM DEBUG Model ConvNeXt created 
 21/12/23 10:13:10 PM DEBUG Opened App
+23/12/23 08:42:37 PM DEBUG Opened App
+23/12/23 08:42:55 PM DEBUG Selected file C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\targets
+23/12/23 08:43:04 PM DEBUG Selected file C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\queries\40
+23/12/23 08:43:09 PM DEBUG Selected file C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\queries\37C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\queries\40
+23/12/23 08:43:14 PM DEBUG Selected file C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\queries\42C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\queries\37C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\queries\40
+23/12/23 08:44:06 PM DEBUG Opened App
+23/12/23 08:44:10 PM DEBUG Model ConvNeXt created 
+23/12/23 08:44:13 PM DEBUG Selected file C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\targets
+23/12/23 08:44:18 PM DEBUG Selected file C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\queries\34
+23/12/23 08:48:42 PM DEBUG Opened App
+23/12/23 08:48:47 PM DEBUG Selected file C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\targets
+23/12/23 08:48:53 PM DEBUG Selected file C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\queries
+23/12/23 08:48:57 PM DEBUG Selected file C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\queries\37C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\queries
+23/12/23 08:49:00 PM DEBUG Model ConvNeXt created 
+23/12/23 08:49:01 PM DEBUG generating resut with ConvNeXt for q:C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\queries\37C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\queries, t:C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\targets
+23/12/23 08:50:43 PM DEBUG Opened App
+23/12/23 08:50:48 PM DEBUG Selected file .
+23/12/23 08:50:48 PM DEBUG Importing BlpImagePlugin
+23/12/23 08:50:48 PM DEBUG Importing BmpImagePlugin
+23/12/23 08:50:48 PM DEBUG Importing BufrStubImagePlugin
+23/12/23 08:50:48 PM DEBUG Importing CurImagePlugin
+23/12/23 08:50:48 PM DEBUG Importing DcxImagePlugin
+23/12/23 08:50:48 PM DEBUG Importing DdsImagePlugin
+23/12/23 08:50:48 PM DEBUG Importing EpsImagePlugin
+23/12/23 08:50:48 PM DEBUG Importing FitsImagePlugin
+23/12/23 08:50:48 PM DEBUG Importing FliImagePlugin
+23/12/23 08:50:48 PM DEBUG Importing FpxImagePlugin
+23/12/23 08:50:48 PM DEBUG Image: failed to import FpxImagePlugin: No module named 'olefile'
+23/12/23 08:50:48 PM DEBUG Importing FtexImagePlugin
+23/12/23 08:50:48 PM DEBUG Importing GbrImagePlugin
+23/12/23 08:50:48 PM DEBUG Importing GifImagePlugin
+23/12/23 08:50:48 PM DEBUG Importing GribStubImagePlugin
+23/12/23 08:50:48 PM DEBUG Importing Hdf5StubImagePlugin
+23/12/23 08:50:48 PM DEBUG Importing IcnsImagePlugin
+23/12/23 08:50:48 PM DEBUG Importing IcoImagePlugin
+23/12/23 08:50:48 PM DEBUG Importing ImImagePlugin
+23/12/23 08:50:48 PM DEBUG Importing ImtImagePlugin
+23/12/23 08:50:48 PM DEBUG Importing IptcImagePlugin
+23/12/23 08:50:48 PM DEBUG Importing JpegImagePlugin
+23/12/23 08:50:48 PM DEBUG Importing Jpeg2KImagePlugin
+23/12/23 08:50:48 PM DEBUG Importing McIdasImagePlugin
+23/12/23 08:50:48 PM DEBUG Importing MicImagePlugin
+23/12/23 08:50:48 PM DEBUG Image: failed to import MicImagePlugin: No module named 'olefile'
+23/12/23 08:50:48 PM DEBUG Importing MpegImagePlugin
+23/12/23 08:50:48 PM DEBUG Importing MpoImagePlugin
+23/12/23 08:50:48 PM DEBUG Importing MspImagePlugin
+23/12/23 08:50:48 PM DEBUG Importing PalmImagePlugin
+23/12/23 08:50:48 PM DEBUG Importing PcdImagePlugin
+23/12/23 08:50:48 PM DEBUG Importing PcxImagePlugin
+23/12/23 08:50:48 PM DEBUG Importing PdfImagePlugin
+23/12/23 08:50:48 PM DEBUG Importing PixarImagePlugin
+23/12/23 08:50:48 PM DEBUG Importing PngImagePlugin
+23/12/23 08:50:48 PM DEBUG Importing PpmImagePlugin
+23/12/23 08:50:48 PM DEBUG Importing PsdImagePlugin
+23/12/23 08:50:48 PM DEBUG Importing QoiImagePlugin
+23/12/23 08:50:48 PM DEBUG Importing SgiImagePlugin
+23/12/23 08:50:48 PM DEBUG Importing SpiderImagePlugin
+23/12/23 08:50:48 PM DEBUG Importing SunImagePlugin
+23/12/23 08:50:48 PM DEBUG Importing TgaImagePlugin
+23/12/23 08:50:48 PM DEBUG Importing TiffImagePlugin
+23/12/23 08:50:48 PM DEBUG Importing WebPImagePlugin
+23/12/23 08:50:48 PM DEBUG Importing WmfImagePlugin
+23/12/23 08:50:48 PM DEBUG Importing XbmImagePlugin
+23/12/23 08:50:48 PM DEBUG Importing XpmImagePlugin
+23/12/23 08:50:48 PM DEBUG Importing XVThumbImagePlugin
+23/12/23 08:51:39 PM DEBUG Selected file C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\targets
+23/12/23 08:52:06 PM DEBUG Selected file C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\queries\36
+23/12/23 08:52:13 PM DEBUG Model ConvNeXt created 
+23/12/23 08:52:17 PM DEBUG generating resut with ConvNeXt for q:C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\queries\36, t:C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\targets
+23/12/23 08:54:27 PM DEBUG Opened App
+23/12/23 08:54:34 PM DEBUG Selected file C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\targets
+23/12/23 08:54:39 PM DEBUG Selected file C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\queries\35
+23/12/23 08:54:42 PM DEBUG Model ConvNeXt created 
+23/12/23 08:54:45 PM DEBUG generating resut with ConvNeXt for q:C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\queries\35, t:C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\targets
+23/12/23 08:54:48 PM DEBUG result done for 0-th row for query
+23/12/23 08:54:48 PM DEBUG result done for 1-th row for query
+23/12/23 08:58:15 PM DEBUG Opened App
+23/12/23 08:58:21 PM DEBUG Selected file C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\targets
+23/12/23 08:58:25 PM DEBUG Selected file C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\queries\34
+23/12/23 08:58:27 PM DEBUG Model ConvNeXt created 
+23/12/23 08:58:28 PM DEBUG generating resut with ConvNeXt for q:C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\queries\34, t:C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\targets
+23/12/23 08:58:31 PM DEBUG result done for 0-th row for query
+23/12/23 08:58:31 PM DEBUG result done for 1-th row for query
+23/12/23 08:58:31 PM DEBUG result done for 2-th row for query
+23/12/23 08:58:31 PM DEBUG result done for 3-th row for query
+23/12/23 10:03:27 PM DEBUG Opened App
+23/12/23 10:03:41 PM DEBUG Selected file C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\targets
+23/12/23 10:03:45 PM DEBUG Selected file C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\queries\35
+23/12/23 10:03:48 PM DEBUG Model ConvNeXt created 
+23/12/23 10:03:49 PM DEBUG generating resut with ConvNeXt for q:C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\queries\35, t:C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\targets
+23/12/23 10:03:52 PM DEBUG result done for 0-th row for query
+23/12/23 10:03:52 PM DEBUG result done for 1-th row for query
+23/12/23 10:04:54 PM DEBUG generating resut with ConvNeXt for q:C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\queries\35, t:C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\targets
+23/12/23 10:04:56 PM DEBUG result done for 0-th row for query
+23/12/23 10:04:56 PM DEBUG result done for 1-th row for query
+24/12/23 09:27:35 PM DEBUG Opened App
+24/12/23 09:27:42 PM DEBUG Selected file C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\targets
+24/12/23 09:27:46 PM DEBUG Selected file C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\queries\36
+24/12/23 09:27:49 PM DEBUG Model ConvNeXt created 
+24/12/23 09:27:50 PM DEBUG generating resut with ConvNeXt for q:C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\queries\36, t:C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\targets
+24/12/23 09:27:52 PM DEBUG result done for 0-th row for query
+24/12/23 09:27:52 PM DEBUG result done for 1-th row for query
+24/12/23 09:28:36 PM DEBUG Opened App
+24/12/23 09:28:59 PM DEBUG Selected file C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\targets
+24/12/23 09:29:04 PM DEBUG Selected file C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\queries\40
+24/12/23 09:29:13 PM DEBUG Model ConvNeXt created 
+24/12/23 09:29:18 PM DEBUG generating resut with ConvNeXt for q:C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\queries\40, t:C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\targets
+24/12/23 09:29:20 PM DEBUG result done for 0-th row for query
+24/12/23 09:34:08 PM DEBUG Opened App
+24/12/23 09:37:31 PM DEBUG Opened App
+24/12/23 09:37:37 PM DEBUG Selected file C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\targets
+24/12/23 09:44:32 PM DEBUG Opened App
+24/12/23 09:44:39 PM DEBUG Selected file C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\targets
+24/12/23 09:45:13 PM DEBUG Opened App
+24/12/23 09:45:20 PM DEBUG Selected file C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\targets
+24/12/23 09:48:11 PM DEBUG Opened App
+24/12/23 09:48:16 PM DEBUG Selected file C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\targets
+24/12/23 09:48:33 PM DEBUG Selected file .
+24/12/23 09:48:40 PM DEBUG Selected file C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\targets
+24/12/23 09:48:45 PM DEBUG Opened App
+24/12/23 09:48:51 PM DEBUG Selected file C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\targets
+24/12/23 09:50:15 PM DEBUG Opened App
+24/12/23 09:50:17 PM DEBUG Selected file C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\targets
+24/12/23 09:50:44 PM DEBUG Opened App
+24/12/23 09:50:50 PM DEBUG Selected file C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\targets
+24/12/23 09:50:59 PM DEBUG Selected file C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\targets
+24/12/23 09:51:08 PM DEBUG Opened App
+24/12/23 09:51:11 PM DEBUG Selected file C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\targets
+24/12/23 09:51:18 PM DEBUG Selected file C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\queries\36
+24/12/23 10:05:12 PM DEBUG Opened App
+24/12/23 10:05:55 PM DEBUG Opened App
+24/12/23 10:06:40 PM DEBUG Opened App
+24/12/23 10:07:16 PM DEBUG Opened App
+24/12/23 10:07:25 PM DEBUG Selected file .
+24/12/23 10:07:25 PM DEBUG Importing BlpImagePlugin
+24/12/23 10:07:25 PM DEBUG Importing BmpImagePlugin
+24/12/23 10:07:25 PM DEBUG Importing BufrStubImagePlugin
+24/12/23 10:07:25 PM DEBUG Importing CurImagePlugin
+24/12/23 10:07:25 PM DEBUG Importing DcxImagePlugin
+24/12/23 10:07:25 PM DEBUG Importing DdsImagePlugin
+24/12/23 10:07:25 PM DEBUG Importing EpsImagePlugin
+24/12/23 10:07:25 PM DEBUG Importing FitsImagePlugin
+24/12/23 10:07:25 PM DEBUG Importing FliImagePlugin
+24/12/23 10:07:25 PM DEBUG Importing FpxImagePlugin
+24/12/23 10:07:25 PM DEBUG Image: failed to import FpxImagePlugin: No module named 'olefile'
+24/12/23 10:07:25 PM DEBUG Importing FtexImagePlugin
+24/12/23 10:07:25 PM DEBUG Importing GbrImagePlugin
+24/12/23 10:07:25 PM DEBUG Importing GifImagePlugin
+24/12/23 10:07:25 PM DEBUG Importing GribStubImagePlugin
+24/12/23 10:07:25 PM DEBUG Importing Hdf5StubImagePlugin
+24/12/23 10:07:25 PM DEBUG Importing IcnsImagePlugin
+24/12/23 10:07:25 PM DEBUG Importing IcoImagePlugin
+24/12/23 10:07:25 PM DEBUG Importing ImImagePlugin
+24/12/23 10:07:25 PM DEBUG Importing ImtImagePlugin
+24/12/23 10:07:25 PM DEBUG Importing IptcImagePlugin
+24/12/23 10:07:25 PM DEBUG Importing JpegImagePlugin
+24/12/23 10:07:25 PM DEBUG Importing Jpeg2KImagePlugin
+24/12/23 10:07:25 PM DEBUG Importing McIdasImagePlugin
+24/12/23 10:07:25 PM DEBUG Importing MicImagePlugin
+24/12/23 10:07:25 PM DEBUG Image: failed to import MicImagePlugin: No module named 'olefile'
+24/12/23 10:07:25 PM DEBUG Importing MpegImagePlugin
+24/12/23 10:07:25 PM DEBUG Importing MpoImagePlugin
+24/12/23 10:07:25 PM DEBUG Importing MspImagePlugin
+24/12/23 10:07:25 PM DEBUG Importing PalmImagePlugin
+24/12/23 10:07:25 PM DEBUG Importing PcdImagePlugin
+24/12/23 10:07:25 PM DEBUG Importing PcxImagePlugin
+24/12/23 10:07:25 PM DEBUG Importing PdfImagePlugin
+24/12/23 10:07:25 PM DEBUG Importing PixarImagePlugin
+24/12/23 10:07:25 PM DEBUG Importing PngImagePlugin
+24/12/23 10:07:25 PM DEBUG Importing PpmImagePlugin
+24/12/23 10:07:25 PM DEBUG Importing PsdImagePlugin
+24/12/23 10:07:25 PM DEBUG Importing QoiImagePlugin
+24/12/23 10:07:25 PM DEBUG Importing SgiImagePlugin
+24/12/23 10:07:25 PM DEBUG Importing SpiderImagePlugin
+24/12/23 10:07:25 PM DEBUG Importing SunImagePlugin
+24/12/23 10:07:25 PM DEBUG Importing TgaImagePlugin
+24/12/23 10:07:25 PM DEBUG Importing TiffImagePlugin
+24/12/23 10:07:25 PM DEBUG Importing WebPImagePlugin
+24/12/23 10:07:25 PM DEBUG Importing WmfImagePlugin
+24/12/23 10:07:25 PM DEBUG Importing XbmImagePlugin
+24/12/23 10:07:25 PM DEBUG Importing XpmImagePlugin
+24/12/23 10:07:25 PM DEBUG Importing XVThumbImagePlugin
