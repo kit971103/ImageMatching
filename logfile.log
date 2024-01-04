@@ -61,3 +61,785 @@ DEBUG:root:Selected file C:/Users/kit97/Downloads/Jobs/merieux - Lab Tech
 21/12/23 09:12:55 PM DEBUG Opened App
 21/12/23 09:13:14 PM DEBUG Selected file C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\targets
 21/12/23 09:13:57 PM DEBUG Opened App
+25/12/23 09:06:45 PM DEBUG Opened App
+25/12/23 09:06:57 PM DEBUG Selected file C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\targets
+25/12/23 09:07:08 PM DEBUG Selected file C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\queries\34
+25/12/23 09:07:11 PM DEBUG Model ConvNeXt created 
+25/12/23 09:07:14 PM DEBUG New Inferencer ConvNeXt created 
+25/12/23 09:07:14 PM DEBUG generating resut with ConvNeXt for q-pathC:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\queries\34, t-pathC:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\targets
+25/12/23 09:07:14 PM DEBUG result done for 0-th row for query
+25/12/23 09:07:14 PM DEBUG result done for 1-th row for query
+25/12/23 09:07:14 PM DEBUG result done for 2-th row for query
+25/12/23 09:07:14 PM DEBUG result done for 3-th row for query
+25/12/23 09:15:13 PM DEBUG Opened App
+25/12/23 09:15:22 PM DEBUG Selected file C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\targets
+25/12/23 09:15:26 PM DEBUG Selected file C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\queries
+25/12/23 09:15:29 PM DEBUG Model GoogLeNet created 
+25/12/23 09:15:58 PM DEBUG Selected file C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\queries\34
+25/12/23 09:16:01 PM DEBUG New Inferencer GoogLeNet created 
+25/12/23 09:16:01 PM DEBUG generating resut with GoogLeNet for q-pathC:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\queries\34, t-pathC:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\targets
+25/12/23 09:16:01 PM DEBUG result done for 0-th row for query
+25/12/23 09:16:01 PM DEBUG result done for 1-th row for query
+25/12/23 09:16:02 PM DEBUG result done for 2-th row for query
+25/12/23 09:16:02 PM DEBUG result done for 3-th row for query
+25/12/23 09:18:13 PM DEBUG Opened App
+25/12/23 09:18:20 PM DEBUG Selected file C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\targets
+25/12/23 09:18:26 PM DEBUG Selected file C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\queries\31
+25/12/23 09:18:32 PM DEBUG Selected file C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\queries\34
+25/12/23 09:18:37 PM DEBUG Selected file C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\queries\45
+25/12/23 09:18:59 PM DEBUG Model EfficientNet created 
+25/12/23 09:19:02 PM DEBUG New Inferencer EfficientNet created 
+25/12/23 09:19:02 PM DEBUG generating resut with EfficientNet for q-pathC:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\queries\45, t-pathC:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\targets
+25/12/23 09:19:02 PM DEBUG result done for 0-th row for query
+25/12/23 09:19:02 PM DEBUG result done for 1-th row for query
+25/12/23 09:19:31 PM DEBUG Opened App
+25/12/23 09:19:40 PM DEBUG Selected file C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\targets
+25/12/23 09:19:48 PM DEBUG Selected file C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\queries\44
+25/12/23 09:19:50 PM DEBUG Model EfficientNet created 
+25/12/23 09:19:52 PM DEBUG New Inferencer EfficientNet created 
+25/12/23 09:19:52 PM DEBUG generating resut with EfficientNet for q-pathC:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\queries\44, t-pathC:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\targets
+25/12/23 09:19:52 PM DEBUG result done for 0-th row for query
+25/12/23 09:21:45 PM DEBUG Opened App
+25/12/23 09:21:53 PM DEBUG Selected file C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\targets
+25/12/23 09:21:59 PM DEBUG Selected file C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\queries\43
+25/12/23 09:22:01 PM DEBUG Model EfficientNet created 
+25/12/23 09:22:02 PM DEBUG New Inferencer EfficientNet created 
+25/12/23 09:22:02 PM DEBUG generating resut with EfficientNet for q-pathC:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\queries\43, t-pathC:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\targets
+25/12/23 09:22:02 PM DEBUG result done for 0-th row for query
+25/12/23 09:22:21 PM DEBUG generating resut with EfficientNet for q-pathC:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\queries\43, t-pathC:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\targets
+25/12/23 09:22:21 PM DEBUG result done for 0-th row for query
+25/12/23 09:26:38 PM DEBUG Opened App
+25/12/23 09:26:54 PM DEBUG Selected file C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\targets
+25/12/23 09:27:03 PM DEBUG Selected file C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\queries\40
+25/12/23 09:27:08 PM DEBUG Model ConvNeXt created 
+25/12/23 09:27:13 PM DEBUG New Inferencer ConvNeXt created 
+25/12/23 09:27:13 PM DEBUG generating resut with ConvNeXt for q-pathC:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\queries\40, t-pathC:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\targets
+25/12/23 09:27:13 PM DEBUG result done for 0-th row for query
+25/12/23 09:29:21 PM DEBUG Opened App
+25/12/23 09:29:32 PM DEBUG Selected file C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\targets
+25/12/23 09:29:37 PM DEBUG Selected file C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\queries\33
+25/12/23 09:29:39 PM DEBUG Model ConvNeXt created 
+25/12/23 09:29:42 PM DEBUG New Inferencer ConvNeXt created 
+25/12/23 09:29:42 PM DEBUG generating resut with ConvNeXt for q-pathC:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\queries\33, t-pathC:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\targets
+25/12/23 09:29:42 PM DEBUG result done for 0-th row for query
+25/12/23 10:27:26 PM DEBUG Opened App
+25/12/23 10:28:25 PM DEBUG Selected file C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\targets
+25/12/23 10:28:29 PM DEBUG Selected file C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\queries
+25/12/23 10:28:40 PM DEBUG Model ConvNeXt created 
+25/12/23 10:29:00 PM DEBUG New Inferencer ConvNeXt created 
+25/12/23 10:29:00 PM DEBUG generating resut with ConvNeXt for q-pathC:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\queries, t-pathC:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\targets
+25/12/23 10:29:00 PM DEBUG result done for 0-th row for query
+25/12/23 10:29:00 PM DEBUG result done for 1-th row for query
+25/12/23 10:29:01 PM DEBUG result done for 2-th row for query
+25/12/23 10:29:01 PM DEBUG result done for 3-th row for query
+25/12/23 10:29:01 PM DEBUG result done for 4-th row for query
+25/12/23 10:29:01 PM DEBUG result done for 5-th row for query
+25/12/23 10:29:01 PM DEBUG result done for 6-th row for query
+25/12/23 10:29:01 PM DEBUG result done for 7-th row for query
+25/12/23 10:29:01 PM DEBUG result done for 8-th row for query
+25/12/23 10:29:01 PM DEBUG result done for 9-th row for query
+25/12/23 10:29:01 PM DEBUG result done for 10-th row for query
+25/12/23 10:29:01 PM DEBUG result done for 11-th row for query
+25/12/23 10:29:01 PM DEBUG result done for 12-th row for query
+25/12/23 10:29:01 PM DEBUG result done for 13-th row for query
+25/12/23 10:29:01 PM DEBUG result done for 14-th row for query
+25/12/23 10:29:01 PM DEBUG result done for 15-th row for query
+25/12/23 10:29:01 PM DEBUG result done for 16-th row for query
+25/12/23 10:29:01 PM DEBUG result done for 17-th row for query
+25/12/23 10:29:01 PM DEBUG result done for 18-th row for query
+25/12/23 10:29:02 PM DEBUG result done for 19-th row for query
+25/12/23 10:29:02 PM DEBUG result done for 20-th row for query
+25/12/23 10:29:02 PM DEBUG result done for 21-th row for query
+25/12/23 10:29:02 PM DEBUG result done for 22-th row for query
+25/12/23 10:29:02 PM DEBUG result done for 23-th row for query
+25/12/23 10:29:02 PM DEBUG result done for 24-th row for query
+25/12/23 10:29:02 PM DEBUG result done for 25-th row for query
+25/12/23 10:29:02 PM DEBUG result done for 26-th row for query
+25/12/23 10:29:02 PM DEBUG result done for 27-th row for query
+25/12/23 10:29:02 PM DEBUG result done for 28-th row for query
+25/12/23 10:29:02 PM DEBUG result done for 29-th row for query
+25/12/23 10:29:02 PM DEBUG result done for 30-th row for query
+25/12/23 10:32:03 PM DEBUG Opened App
+25/12/23 10:35:13 PM DEBUG Opened App
+25/12/23 10:36:00 PM DEBUG Opened App
+25/12/23 10:37:19 PM DEBUG Opened App
+25/12/23 10:46:51 PM DEBUG Opened App
+25/12/23 10:49:38 PM DEBUG Opened App
+28/12/23 08:55:55 PM DEBUG Opened App
+28/12/23 08:56:11 PM DEBUG Selected file C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\targets
+28/12/23 08:56:15 PM DEBUG Selected file C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\sample_q
+28/12/23 08:56:18 PM DEBUG Model ConvNeXt created 
+28/12/23 08:56:22 PM DEBUG New Inferencer ConvNeXt created 
+28/12/23 08:56:22 PM DEBUG generating resut with ConvNeXt for q-pathC:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\sample_q, t-pathC:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\targets
+28/12/23 08:56:22 PM DEBUG result done for 0-th row for query
+28/12/23 08:56:22 PM DEBUG result done for 1-th row for query
+28/12/23 08:56:22 PM DEBUG result done for 2-th row for query
+28/12/23 08:56:22 PM DEBUG result done for 3-th row for query
+28/12/23 08:56:22 PM DEBUG result done for 4-th row for query
+28/12/23 08:56:22 PM DEBUG result done for 5-th row for query
+28/12/23 10:37:08 PM DEBUG Opened App
+28/12/23 10:37:16 PM DEBUG Model ConvNeXt created 
+28/12/23 10:37:23 PM DEBUG Selected file C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\targets
+28/12/23 10:37:28 PM DEBUG Selected file C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\queries
+28/12/23 10:37:36 PM DEBUG Selected file C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\sample_q
+28/12/23 10:37:41 PM DEBUG New Inferencer ConvNeXt created 
+28/12/23 10:37:41 PM DEBUG generating resut with ConvNeXt for q-pathC:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\sample_q, t-pathC:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\targets
+28/12/23 10:43:45 PM DEBUG Opened App
+28/12/23 10:43:51 PM DEBUG Selected file C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\targets
+28/12/23 10:43:56 PM DEBUG Selected file C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\queries
+28/12/23 10:44:03 PM DEBUG Selected file C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\sample_q
+28/12/23 10:44:05 PM DEBUG Model ConvNeXt created 
+28/12/23 10:44:08 PM DEBUG New Inferencer ConvNeXt created 
+28/12/23 10:44:08 PM DEBUG generating resut with ConvNeXt for q-pathC:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\sample_q, t-pathC:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\targets
+28/12/23 10:45:09 PM DEBUG Opened App
+28/12/23 10:45:15 PM DEBUG Selected file C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\targets
+28/12/23 10:45:19 PM DEBUG Selected file C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\sample_q
+28/12/23 10:45:21 PM DEBUG Model ConvNeXt created 
+28/12/23 10:45:26 PM DEBUG New Inferencer ConvNeXt created 
+28/12/23 10:45:26 PM DEBUG generating resut with ConvNeXt for q-pathC:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\sample_q, t-pathC:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\targets
+28/12/23 10:46:47 PM DEBUG result done for 0-th row for query
+28/12/23 10:46:48 PM DEBUG result done for 1-th row for query
+28/12/23 10:46:48 PM DEBUG result done for 2-th row for query
+28/12/23 10:46:48 PM DEBUG result done for 3-th row for query
+28/12/23 10:46:48 PM DEBUG result done for 4-th row for query
+28/12/23 10:46:48 PM DEBUG result done for 5-th row for query
+28/12/23 10:48:43 PM DEBUG Opened App
+28/12/23 10:48:52 PM DEBUG Opened App
+28/12/23 10:48:59 PM DEBUG Selected file C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\targets
+28/12/23 10:49:03 PM DEBUG Selected file C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\sample_q
+28/12/23 10:49:08 PM DEBUG Model ConvNeXt created 
+28/12/23 10:49:13 PM DEBUG New Inferencer ConvNeXt created 
+28/12/23 10:49:13 PM DEBUG generating resut with ConvNeXt for q-pathC:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\sample_q, t-pathC:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\targets
+28/12/23 10:50:27 PM DEBUG result done for 0-th row for query
+28/12/23 10:50:27 PM DEBUG result done for 1-th row for query
+28/12/23 10:50:27 PM DEBUG result done for 2-th row for query
+28/12/23 10:50:27 PM DEBUG result done for 3-th row for query
+28/12/23 10:50:27 PM DEBUG result done for 4-th row for query
+28/12/23 10:50:27 PM DEBUG result done for 5-th row for query
+28/12/23 10:54:00 PM DEBUG Selected file C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\queries
+28/12/23 10:54:03 PM DEBUG Model AlexNet created 
+28/12/23 10:54:05 PM DEBUG Model ConvNeXt created 
+28/12/23 10:54:15 PM DEBUG New Inferencer ConvNeXt created 
+28/12/23 10:54:15 PM DEBUG generating resut with ConvNeXt for q-pathC:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\queries, t-pathC:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\targets
+28/12/23 10:55:53 PM DEBUG result done for 0-th row for query
+28/12/23 10:55:53 PM DEBUG result done for 1-th row for query
+28/12/23 10:55:53 PM DEBUG result done for 2-th row for query
+28/12/23 10:55:53 PM DEBUG result done for 3-th row for query
+28/12/23 10:55:53 PM DEBUG result done for 4-th row for query
+28/12/23 10:55:53 PM DEBUG result done for 5-th row for query
+28/12/23 10:55:53 PM DEBUG result done for 6-th row for query
+28/12/23 10:55:53 PM DEBUG result done for 7-th row for query
+28/12/23 10:55:53 PM DEBUG result done for 8-th row for query
+28/12/23 10:55:54 PM DEBUG result done for 9-th row for query
+28/12/23 10:55:54 PM DEBUG result done for 10-th row for query
+28/12/23 10:55:54 PM DEBUG result done for 11-th row for query
+28/12/23 10:55:54 PM DEBUG result done for 12-th row for query
+28/12/23 10:55:54 PM DEBUG result done for 13-th row for query
+28/12/23 10:55:54 PM DEBUG result done for 14-th row for query
+28/12/23 10:55:54 PM DEBUG result done for 15-th row for query
+28/12/23 10:55:54 PM DEBUG result done for 16-th row for query
+28/12/23 10:55:54 PM DEBUG result done for 17-th row for query
+28/12/23 10:55:54 PM DEBUG result done for 18-th row for query
+28/12/23 10:55:54 PM DEBUG result done for 19-th row for query
+28/12/23 10:55:55 PM DEBUG result done for 20-th row for query
+28/12/23 10:55:55 PM DEBUG result done for 21-th row for query
+28/12/23 10:55:55 PM DEBUG result done for 22-th row for query
+28/12/23 10:55:55 PM DEBUG result done for 23-th row for query
+28/12/23 10:55:55 PM DEBUG result done for 24-th row for query
+28/12/23 10:55:55 PM DEBUG result done for 25-th row for query
+28/12/23 10:55:55 PM DEBUG result done for 26-th row for query
+28/12/23 10:55:55 PM DEBUG result done for 27-th row for query
+28/12/23 10:55:55 PM DEBUG result done for 28-th row for query
+28/12/23 10:55:55 PM DEBUG result done for 29-th row for query
+28/12/23 10:55:55 PM DEBUG result done for 30-th row for query
+28/12/23 11:01:40 PM DEBUG Opened App
+28/12/23 11:01:51 PM DEBUG Selected file C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\targets
+28/12/23 11:01:58 PM DEBUG Selected file C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\queries
+28/12/23 11:02:01 PM DEBUG Model ConvNeXt created 
+28/12/23 11:02:04 PM DEBUG New Inferencer ConvNeXt created 
+28/12/23 11:02:04 PM DEBUG generating resut with ConvNeXt for q-pathC:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\queries, t-pathC:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\targets
+28/12/23 11:02:48 PM DEBUG result done for 0-th row for query
+28/12/23 11:02:48 PM DEBUG result done for 1-th row for query
+28/12/23 11:02:48 PM DEBUG result done for 2-th row for query
+28/12/23 11:02:48 PM DEBUG result done for 3-th row for query
+28/12/23 11:02:48 PM DEBUG result done for 4-th row for query
+28/12/23 11:02:48 PM DEBUG result done for 5-th row for query
+28/12/23 11:02:48 PM DEBUG result done for 6-th row for query
+28/12/23 11:02:48 PM DEBUG result done for 7-th row for query
+28/12/23 11:02:48 PM DEBUG result done for 8-th row for query
+28/12/23 11:02:48 PM DEBUG result done for 9-th row for query
+28/12/23 11:02:48 PM DEBUG result done for 10-th row for query
+28/12/23 11:02:48 PM DEBUG result done for 11-th row for query
+28/12/23 11:02:48 PM DEBUG result done for 12-th row for query
+28/12/23 11:02:48 PM DEBUG result done for 13-th row for query
+28/12/23 11:02:49 PM DEBUG result done for 14-th row for query
+28/12/23 11:02:49 PM DEBUG result done for 15-th row for query
+28/12/23 11:02:49 PM DEBUG result done for 16-th row for query
+28/12/23 11:02:49 PM DEBUG result done for 17-th row for query
+28/12/23 11:02:49 PM DEBUG result done for 18-th row for query
+28/12/23 11:02:49 PM DEBUG result done for 19-th row for query
+28/12/23 11:02:49 PM DEBUG result done for 20-th row for query
+28/12/23 11:02:49 PM DEBUG result done for 21-th row for query
+28/12/23 11:02:49 PM DEBUG result done for 22-th row for query
+28/12/23 11:02:49 PM DEBUG result done for 23-th row for query
+28/12/23 11:02:49 PM DEBUG result done for 24-th row for query
+28/12/23 11:02:49 PM DEBUG result done for 25-th row for query
+28/12/23 11:02:49 PM DEBUG result done for 26-th row for query
+28/12/23 11:02:49 PM DEBUG result done for 27-th row for query
+28/12/23 11:02:49 PM DEBUG result done for 28-th row for query
+28/12/23 11:02:49 PM DEBUG result done for 29-th row for query
+28/12/23 11:02:49 PM DEBUG result done for 30-th row for query
+29/12/23 12:21:40 AM DEBUG Opened App
+29/12/23 12:21:47 AM DEBUG Selected file C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\targets
+29/12/23 12:21:51 AM DEBUG Selected file C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\queries
+29/12/23 12:22:36 AM DEBUG Model ConvNeXt created 
+29/12/23 12:22:43 AM DEBUG New Inferencer ConvNeXt created 
+29/12/23 12:22:43 AM DEBUG generating resut with ConvNeXt for q-pathC:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\queries, t-pathC:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\targets
+29/12/23 12:23:46 AM DEBUG result done for 0-th row for query
+29/12/23 12:23:46 AM DEBUG result done for 1-th row for query
+29/12/23 12:23:46 AM DEBUG result done for 2-th row for query
+29/12/23 12:23:47 AM DEBUG result done for 3-th row for query
+29/12/23 12:23:47 AM DEBUG result done for 4-th row for query
+29/12/23 12:23:47 AM DEBUG result done for 5-th row for query
+29/12/23 12:23:47 AM DEBUG result done for 6-th row for query
+29/12/23 12:23:48 AM DEBUG result done for 7-th row for query
+29/12/23 12:23:48 AM DEBUG result done for 8-th row for query
+29/12/23 12:23:48 AM DEBUG result done for 9-th row for query
+29/12/23 12:23:49 AM DEBUG result done for 10-th row for query
+29/12/23 12:23:49 AM DEBUG result done for 11-th row for query
+29/12/23 12:23:49 AM DEBUG result done for 12-th row for query
+29/12/23 12:23:49 AM DEBUG result done for 13-th row for query
+29/12/23 12:23:50 AM DEBUG result done for 14-th row for query
+29/12/23 12:23:50 AM DEBUG result done for 15-th row for query
+29/12/23 12:23:50 AM DEBUG result done for 16-th row for query
+29/12/23 12:23:50 AM DEBUG result done for 17-th row for query
+29/12/23 12:23:50 AM DEBUG result done for 18-th row for query
+29/12/23 12:23:51 AM DEBUG result done for 19-th row for query
+29/12/23 12:23:51 AM DEBUG result done for 20-th row for query
+29/12/23 12:23:51 AM DEBUG result done for 21-th row for query
+29/12/23 12:23:51 AM DEBUG result done for 22-th row for query
+29/12/23 12:23:51 AM DEBUG result done for 23-th row for query
+29/12/23 12:23:51 AM DEBUG result done for 24-th row for query
+29/12/23 12:23:52 AM DEBUG result done for 25-th row for query
+29/12/23 12:23:52 AM DEBUG result done for 26-th row for query
+29/12/23 12:23:52 AM DEBUG result done for 27-th row for query
+29/12/23 12:23:52 AM DEBUG result done for 28-th row for query
+29/12/23 12:23:52 AM DEBUG result done for 29-th row for query
+29/12/23 12:23:53 AM DEBUG result done for 30-th row for query
+29/12/23 12:24:46 AM DEBUG Opened App
+29/12/23 12:24:55 AM DEBUG Model ConvNeXt created 
+29/12/23 12:24:59 AM DEBUG Selected file C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\targets
+29/12/23 12:25:03 AM DEBUG Selected file C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\queries
+29/12/23 12:25:05 AM DEBUG New Inferencer ConvNeXt created 
+29/12/23 12:25:05 AM DEBUG generating resut with ConvNeXt for q-pathC:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\queries, t-pathC:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\targets
+29/12/23 12:25:22 AM DEBUG result done for 0-th row for query
+29/12/23 12:25:22 AM DEBUG result done for 1-th row for query
+29/12/23 12:25:22 AM DEBUG result done for 2-th row for query
+29/12/23 12:25:22 AM DEBUG result done for 3-th row for query
+29/12/23 12:25:22 AM DEBUG result done for 4-th row for query
+29/12/23 12:25:22 AM DEBUG result done for 5-th row for query
+29/12/23 12:25:22 AM DEBUG result done for 6-th row for query
+29/12/23 12:25:22 AM DEBUG result done for 7-th row for query
+29/12/23 12:25:22 AM DEBUG result done for 8-th row for query
+29/12/23 12:25:22 AM DEBUG result done for 9-th row for query
+29/12/23 12:25:23 AM DEBUG result done for 10-th row for query
+29/12/23 12:25:23 AM DEBUG result done for 11-th row for query
+29/12/23 12:25:23 AM DEBUG result done for 12-th row for query
+29/12/23 12:25:23 AM DEBUG result done for 13-th row for query
+29/12/23 12:25:23 AM DEBUG result done for 14-th row for query
+29/12/23 12:25:23 AM DEBUG result done for 15-th row for query
+29/12/23 12:25:23 AM DEBUG result done for 16-th row for query
+29/12/23 12:25:23 AM DEBUG result done for 17-th row for query
+29/12/23 12:25:23 AM DEBUG result done for 18-th row for query
+29/12/23 12:25:23 AM DEBUG result done for 19-th row for query
+29/12/23 12:25:23 AM DEBUG result done for 20-th row for query
+29/12/23 12:25:23 AM DEBUG result done for 21-th row for query
+29/12/23 12:25:23 AM DEBUG result done for 22-th row for query
+29/12/23 12:25:23 AM DEBUG result done for 23-th row for query
+29/12/23 12:25:24 AM DEBUG result done for 24-th row for query
+29/12/23 12:25:24 AM DEBUG result done for 25-th row for query
+29/12/23 12:25:24 AM DEBUG result done for 26-th row for query
+29/12/23 12:25:24 AM DEBUG result done for 27-th row for query
+29/12/23 12:25:24 AM DEBUG result done for 28-th row for query
+29/12/23 12:25:24 AM DEBUG result done for 29-th row for query
+29/12/23 12:25:24 AM DEBUG result done for 30-th row for query
+29/12/23 12:27:53 AM DEBUG Model EfficientNet created 
+29/12/23 12:27:57 AM DEBUG New Inferencer EfficientNet created 
+29/12/23 12:27:57 AM DEBUG generating resut with EfficientNet for q-pathC:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\queries, t-pathC:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\targets
+29/12/23 12:27:59 AM DEBUG result done for 0-th row for query
+29/12/23 12:27:59 AM DEBUG result done for 1-th row for query
+29/12/23 12:27:59 AM DEBUG result done for 2-th row for query
+29/12/23 12:27:59 AM DEBUG result done for 3-th row for query
+29/12/23 12:27:59 AM DEBUG result done for 4-th row for query
+29/12/23 12:27:59 AM DEBUG result done for 5-th row for query
+29/12/23 12:28:00 AM DEBUG result done for 6-th row for query
+29/12/23 12:28:00 AM DEBUG result done for 7-th row for query
+29/12/23 12:28:00 AM DEBUG result done for 8-th row for query
+29/12/23 12:28:00 AM DEBUG result done for 9-th row for query
+29/12/23 12:28:00 AM DEBUG result done for 10-th row for query
+29/12/23 12:28:00 AM DEBUG result done for 11-th row for query
+29/12/23 12:28:00 AM DEBUG result done for 12-th row for query
+29/12/23 12:28:00 AM DEBUG result done for 13-th row for query
+29/12/23 12:28:00 AM DEBUG result done for 14-th row for query
+29/12/23 12:28:00 AM DEBUG result done for 15-th row for query
+29/12/23 12:28:00 AM DEBUG result done for 16-th row for query
+29/12/23 12:28:00 AM DEBUG result done for 17-th row for query
+29/12/23 12:28:00 AM DEBUG result done for 18-th row for query
+29/12/23 12:28:00 AM DEBUG result done for 19-th row for query
+29/12/23 12:28:00 AM DEBUG result done for 20-th row for query
+29/12/23 12:28:00 AM DEBUG result done for 21-th row for query
+29/12/23 12:28:00 AM DEBUG result done for 22-th row for query
+29/12/23 12:28:00 AM DEBUG result done for 23-th row for query
+29/12/23 12:28:00 AM DEBUG result done for 24-th row for query
+29/12/23 12:28:01 AM DEBUG result done for 25-th row for query
+29/12/23 12:28:01 AM DEBUG result done for 26-th row for query
+29/12/23 12:28:01 AM DEBUG result done for 27-th row for query
+29/12/23 12:28:01 AM DEBUG result done for 28-th row for query
+29/12/23 12:28:01 AM DEBUG result done for 29-th row for query
+29/12/23 12:28:01 AM DEBUG result done for 30-th row for query
+29/12/23 12:29:29 AM DEBUG Opened App
+29/12/23 12:29:41 AM DEBUG Selected file C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\targets
+29/12/23 12:29:45 AM DEBUG Selected file C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\queries
+29/12/23 12:29:51 AM DEBUG Model EfficientNet created 
+29/12/23 12:29:54 AM DEBUG New Inferencer EfficientNet created 
+29/12/23 12:29:54 AM DEBUG generating resut with EfficientNet for q-pathC:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\queries, t-pathC:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\targets
+29/12/23 12:29:56 AM DEBUG result done for 0-th row for query
+29/12/23 12:29:56 AM DEBUG result done for 1-th row for query
+29/12/23 12:29:56 AM DEBUG result done for 2-th row for query
+29/12/23 12:29:56 AM DEBUG result done for 3-th row for query
+29/12/23 12:29:56 AM DEBUG result done for 4-th row for query
+29/12/23 12:29:56 AM DEBUG result done for 5-th row for query
+29/12/23 12:29:56 AM DEBUG result done for 6-th row for query
+29/12/23 12:29:56 AM DEBUG result done for 7-th row for query
+29/12/23 12:29:56 AM DEBUG result done for 8-th row for query
+29/12/23 12:29:56 AM DEBUG result done for 9-th row for query
+29/12/23 12:29:56 AM DEBUG result done for 10-th row for query
+29/12/23 12:29:56 AM DEBUG result done for 11-th row for query
+29/12/23 12:29:56 AM DEBUG result done for 12-th row for query
+29/12/23 12:29:56 AM DEBUG result done for 13-th row for query
+29/12/23 12:29:57 AM DEBUG result done for 14-th row for query
+29/12/23 12:29:57 AM DEBUG result done for 15-th row for query
+29/12/23 12:29:57 AM DEBUG result done for 16-th row for query
+29/12/23 12:29:57 AM DEBUG result done for 17-th row for query
+29/12/23 12:29:57 AM DEBUG result done for 18-th row for query
+29/12/23 12:29:57 AM DEBUG result done for 19-th row for query
+29/12/23 12:29:57 AM DEBUG result done for 20-th row for query
+29/12/23 12:29:57 AM DEBUG result done for 21-th row for query
+29/12/23 12:29:57 AM DEBUG result done for 22-th row for query
+29/12/23 12:29:57 AM DEBUG result done for 23-th row for query
+29/12/23 12:29:57 AM DEBUG result done for 24-th row for query
+29/12/23 12:29:57 AM DEBUG result done for 25-th row for query
+29/12/23 12:29:57 AM DEBUG result done for 26-th row for query
+29/12/23 12:29:57 AM DEBUG result done for 27-th row for query
+29/12/23 12:29:57 AM DEBUG result done for 28-th row for query
+29/12/23 12:29:57 AM DEBUG result done for 29-th row for query
+29/12/23 12:29:57 AM DEBUG result done for 30-th row for query
+29/12/23 12:31:06 AM DEBUG Opened App
+29/12/23 12:31:15 AM DEBUG Selected file C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\targets
+29/12/23 12:31:19 AM DEBUG Selected file C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\queries
+29/12/23 12:31:21 AM DEBUG Model EfficientNet created 
+29/12/23 12:31:23 AM DEBUG New Inferencer EfficientNet created 
+29/12/23 12:31:23 AM DEBUG generating resut with EfficientNet for q-pathC:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\queries, t-pathC:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\targets
+29/12/23 12:31:25 AM DEBUG result done for 0-th row for query
+29/12/23 12:31:25 AM DEBUG result done for 1-th row for query
+29/12/23 12:31:25 AM DEBUG result done for 2-th row for query
+29/12/23 12:31:25 AM DEBUG result done for 3-th row for query
+29/12/23 12:31:25 AM DEBUG result done for 4-th row for query
+29/12/23 12:31:25 AM DEBUG result done for 5-th row for query
+29/12/23 12:31:25 AM DEBUG result done for 6-th row for query
+29/12/23 12:31:25 AM DEBUG result done for 7-th row for query
+29/12/23 12:31:25 AM DEBUG result done for 8-th row for query
+29/12/23 12:31:25 AM DEBUG result done for 9-th row for query
+29/12/23 12:31:25 AM DEBUG result done for 10-th row for query
+29/12/23 12:31:25 AM DEBUG result done for 11-th row for query
+29/12/23 12:31:26 AM DEBUG result done for 12-th row for query
+29/12/23 12:31:26 AM DEBUG result done for 13-th row for query
+29/12/23 12:31:26 AM DEBUG result done for 14-th row for query
+29/12/23 12:31:26 AM DEBUG result done for 15-th row for query
+29/12/23 12:31:26 AM DEBUG result done for 16-th row for query
+29/12/23 12:31:26 AM DEBUG result done for 17-th row for query
+29/12/23 12:31:26 AM DEBUG result done for 18-th row for query
+29/12/23 12:31:26 AM DEBUG result done for 19-th row for query
+29/12/23 12:31:26 AM DEBUG result done for 20-th row for query
+29/12/23 12:31:26 AM DEBUG result done for 21-th row for query
+29/12/23 12:31:26 AM DEBUG result done for 22-th row for query
+29/12/23 12:31:26 AM DEBUG result done for 23-th row for query
+29/12/23 12:31:26 AM DEBUG result done for 24-th row for query
+29/12/23 12:31:26 AM DEBUG result done for 25-th row for query
+29/12/23 12:31:26 AM DEBUG result done for 26-th row for query
+29/12/23 12:31:26 AM DEBUG result done for 27-th row for query
+29/12/23 12:31:26 AM DEBUG result done for 28-th row for query
+29/12/23 12:31:26 AM DEBUG result done for 29-th row for query
+29/12/23 12:31:27 AM DEBUG result done for 30-th row for query
+29/12/23 11:45:11 PM DEBUG Opened App
+29/12/23 11:45:22 PM DEBUG Opened App
+29/12/23 11:46:04 PM DEBUG Opened App
+29/12/23 11:46:13 PM DEBUG Selected file C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\targets
+29/12/23 11:46:19 PM DEBUG Selected file C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\queries
+29/12/23 11:46:23 PM DEBUG Model ConvNeXt created 
+29/12/23 11:46:26 PM DEBUG New Inferencer ConvNeXt created 
+29/12/23 11:46:26 PM DEBUG generating resut with ConvNeXt for q-pathC:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\queries, t-pathC:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\targets
+29/12/23 11:47:48 PM DEBUG result done for 0-th row for query
+29/12/23 11:47:48 PM DEBUG result done for 1-th row for query
+29/12/23 11:47:48 PM DEBUG result done for 2-th row for query
+29/12/23 11:47:48 PM DEBUG result done for 3-th row for query
+29/12/23 11:47:49 PM DEBUG result done for 4-th row for query
+29/12/23 11:47:49 PM DEBUG result done for 5-th row for query
+29/12/23 11:47:49 PM DEBUG result done for 6-th row for query
+29/12/23 11:47:49 PM DEBUG result done for 7-th row for query
+29/12/23 11:47:49 PM DEBUG result done for 8-th row for query
+29/12/23 11:47:49 PM DEBUG result done for 9-th row for query
+29/12/23 11:47:49 PM DEBUG result done for 10-th row for query
+29/12/23 11:47:49 PM DEBUG result done for 11-th row for query
+29/12/23 11:47:49 PM DEBUG result done for 12-th row for query
+29/12/23 11:47:49 PM DEBUG result done for 13-th row for query
+29/12/23 11:47:50 PM DEBUG result done for 14-th row for query
+29/12/23 11:47:50 PM DEBUG result done for 15-th row for query
+29/12/23 11:47:50 PM DEBUG result done for 16-th row for query
+29/12/23 11:47:50 PM DEBUG result done for 17-th row for query
+29/12/23 11:47:50 PM DEBUG result done for 18-th row for query
+29/12/23 11:47:50 PM DEBUG result done for 19-th row for query
+29/12/23 11:47:51 PM DEBUG result done for 20-th row for query
+29/12/23 11:47:51 PM DEBUG result done for 21-th row for query
+29/12/23 11:47:51 PM DEBUG result done for 22-th row for query
+29/12/23 11:47:51 PM DEBUG result done for 23-th row for query
+29/12/23 11:47:51 PM DEBUG result done for 24-th row for query
+29/12/23 11:47:52 PM DEBUG result done for 25-th row for query
+29/12/23 11:47:52 PM DEBUG result done for 26-th row for query
+29/12/23 11:47:52 PM DEBUG result done for 27-th row for query
+29/12/23 11:47:52 PM DEBUG result done for 28-th row for query
+29/12/23 11:47:52 PM DEBUG result done for 29-th row for query
+29/12/23 11:47:53 PM DEBUG result done for 30-th row for query
+29/12/23 11:50:01 PM DEBUG Opened App
+29/12/23 11:50:12 PM DEBUG Selected file C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\targets
+29/12/23 11:50:17 PM DEBUG Selected file C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\queries
+29/12/23 11:50:21 PM DEBUG Model ConvNeXt created 
+29/12/23 11:50:23 PM DEBUG New Inferencer ConvNeXt created 
+29/12/23 11:50:23 PM DEBUG generating resut with ConvNeXt for q-pathC:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\queries, t-pathC:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\targets
+29/12/23 11:50:49 PM DEBUG result done for 0-th row for query
+29/12/23 11:50:49 PM DEBUG result done for 1-th row for query
+29/12/23 11:50:49 PM DEBUG result done for 2-th row for query
+29/12/23 11:50:49 PM DEBUG result done for 3-th row for query
+29/12/23 11:50:49 PM DEBUG result done for 4-th row for query
+29/12/23 11:50:50 PM DEBUG result done for 5-th row for query
+29/12/23 11:50:50 PM DEBUG result done for 6-th row for query
+29/12/23 11:50:50 PM DEBUG result done for 7-th row for query
+29/12/23 11:50:50 PM DEBUG result done for 8-th row for query
+29/12/23 11:50:51 PM DEBUG result done for 9-th row for query
+29/12/23 11:50:51 PM DEBUG result done for 10-th row for query
+29/12/23 11:50:51 PM DEBUG result done for 11-th row for query
+29/12/23 11:50:51 PM DEBUG result done for 12-th row for query
+29/12/23 11:50:51 PM DEBUG result done for 13-th row for query
+29/12/23 11:50:52 PM DEBUG result done for 14-th row for query
+29/12/23 11:50:52 PM DEBUG result done for 15-th row for query
+29/12/23 11:50:52 PM DEBUG result done for 16-th row for query
+29/12/23 11:50:52 PM DEBUG result done for 17-th row for query
+29/12/23 11:50:53 PM DEBUG result done for 18-th row for query
+29/12/23 11:50:53 PM DEBUG result done for 19-th row for query
+29/12/23 11:50:53 PM DEBUG result done for 20-th row for query
+29/12/23 11:50:53 PM DEBUG result done for 21-th row for query
+29/12/23 11:50:54 PM DEBUG result done for 22-th row for query
+29/12/23 11:50:54 PM DEBUG result done for 23-th row for query
+29/12/23 11:50:54 PM DEBUG result done for 24-th row for query
+29/12/23 11:50:54 PM DEBUG result done for 25-th row for query
+29/12/23 11:50:55 PM DEBUG result done for 26-th row for query
+29/12/23 11:50:55 PM DEBUG result done for 27-th row for query
+29/12/23 11:50:55 PM DEBUG result done for 28-th row for query
+29/12/23 11:50:56 PM DEBUG result done for 29-th row for query
+29/12/23 11:50:56 PM DEBUG result done for 30-th row for query
+29/12/23 11:57:27 PM DEBUG Opened App
+29/12/23 11:57:55 PM DEBUG Opened App
+29/12/23 11:58:04 PM DEBUG Selected file C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\targets
+29/12/23 11:58:08 PM DEBUG Selected file C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\queries
+29/12/23 11:58:10 PM DEBUG Model EfficientNet created 
+29/12/23 11:58:13 PM DEBUG New Inferencer EfficientNet created 
+29/12/23 11:58:13 PM DEBUG generating resut with EfficientNet for q-pathC:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\queries, t-pathC:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\targets
+29/12/23 11:58:15 PM DEBUG result done for 0-th row for query
+29/12/23 11:58:15 PM DEBUG result done for 1-th row for query
+29/12/23 11:58:15 PM DEBUG result done for 2-th row for query
+29/12/23 11:58:15 PM DEBUG result done for 3-th row for query
+29/12/23 11:58:15 PM DEBUG result done for 4-th row for query
+29/12/23 11:58:15 PM DEBUG result done for 5-th row for query
+29/12/23 11:58:15 PM DEBUG result done for 6-th row for query
+29/12/23 11:58:15 PM DEBUG result done for 7-th row for query
+29/12/23 11:58:15 PM DEBUG result done for 8-th row for query
+29/12/23 11:58:15 PM DEBUG result done for 9-th row for query
+29/12/23 11:58:16 PM DEBUG result done for 10-th row for query
+29/12/23 11:58:16 PM DEBUG result done for 11-th row for query
+29/12/23 11:58:16 PM DEBUG result done for 12-th row for query
+29/12/23 11:58:16 PM DEBUG result done for 13-th row for query
+29/12/23 11:58:16 PM DEBUG result done for 14-th row for query
+29/12/23 11:58:16 PM DEBUG result done for 15-th row for query
+29/12/23 11:58:16 PM DEBUG result done for 16-th row for query
+29/12/23 11:58:16 PM DEBUG result done for 17-th row for query
+29/12/23 11:58:16 PM DEBUG result done for 18-th row for query
+29/12/23 11:58:16 PM DEBUG result done for 19-th row for query
+29/12/23 11:58:16 PM DEBUG result done for 20-th row for query
+29/12/23 11:58:16 PM DEBUG result done for 21-th row for query
+29/12/23 11:58:16 PM DEBUG result done for 22-th row for query
+29/12/23 11:58:17 PM DEBUG result done for 23-th row for query
+29/12/23 11:58:17 PM DEBUG result done for 24-th row for query
+29/12/23 11:58:17 PM DEBUG result done for 25-th row for query
+29/12/23 11:58:17 PM DEBUG result done for 26-th row for query
+29/12/23 11:58:17 PM DEBUG result done for 27-th row for query
+29/12/23 11:58:17 PM DEBUG result done for 28-th row for query
+29/12/23 11:58:17 PM DEBUG result done for 29-th row for query
+29/12/23 11:58:17 PM DEBUG result done for 30-th row for query
+30/12/23 12:06:13 AM DEBUG Opened App
+30/12/23 12:06:32 AM DEBUG Opened App
+30/12/23 12:06:56 AM DEBUG Selected file C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\targets
+30/12/23 12:07:00 AM DEBUG Selected file C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\queries
+30/12/23 12:07:29 AM DEBUG Model EfficientNet created 
+30/12/23 12:07:30 AM DEBUG New Inferencer EfficientNet created 
+30/12/23 12:07:30 AM DEBUG generating resut with EfficientNet for q-pathC:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\queries, t-pathC:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\targets
+30/12/23 12:07:32 AM DEBUG result done for 0-th row for query
+30/12/23 12:07:32 AM DEBUG result done for 1-th row for query
+30/12/23 12:07:32 AM DEBUG result done for 2-th row for query
+30/12/23 12:07:32 AM DEBUG result done for 3-th row for query
+30/12/23 12:07:32 AM DEBUG result done for 4-th row for query
+30/12/23 12:07:32 AM DEBUG result done for 5-th row for query
+30/12/23 12:07:32 AM DEBUG result done for 6-th row for query
+30/12/23 12:07:32 AM DEBUG result done for 7-th row for query
+30/12/23 12:07:32 AM DEBUG result done for 8-th row for query
+30/12/23 12:07:32 AM DEBUG result done for 9-th row for query
+30/12/23 12:07:33 AM DEBUG result done for 10-th row for query
+30/12/23 12:07:33 AM DEBUG result done for 11-th row for query
+30/12/23 12:07:33 AM DEBUG result done for 12-th row for query
+30/12/23 12:07:33 AM DEBUG result done for 13-th row for query
+30/12/23 12:07:33 AM DEBUG result done for 14-th row for query
+30/12/23 12:07:33 AM DEBUG result done for 15-th row for query
+30/12/23 12:07:33 AM DEBUG result done for 16-th row for query
+30/12/23 12:07:33 AM DEBUG result done for 17-th row for query
+30/12/23 12:07:33 AM DEBUG result done for 18-th row for query
+30/12/23 12:07:33 AM DEBUG result done for 19-th row for query
+30/12/23 12:07:33 AM DEBUG result done for 20-th row for query
+30/12/23 12:07:33 AM DEBUG result done for 21-th row for query
+30/12/23 12:07:33 AM DEBUG result done for 22-th row for query
+30/12/23 12:07:33 AM DEBUG result done for 23-th row for query
+30/12/23 12:07:33 AM DEBUG result done for 24-th row for query
+30/12/23 12:07:33 AM DEBUG result done for 25-th row for query
+30/12/23 12:07:33 AM DEBUG result done for 26-th row for query
+30/12/23 12:07:33 AM DEBUG result done for 27-th row for query
+30/12/23 12:07:34 AM DEBUG result done for 28-th row for query
+30/12/23 12:07:34 AM DEBUG result done for 29-th row for query
+30/12/23 12:07:34 AM DEBUG result done for 30-th row for query
+30/12/23 12:08:22 AM DEBUG Opened App
+30/12/23 12:08:43 AM DEBUG Opened App
+30/12/23 12:08:51 AM DEBUG Selected file C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\targets
+30/12/23 12:08:55 AM DEBUG Selected file C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\queries
+30/12/23 12:09:06 AM DEBUG Model EfficientNet created 
+30/12/23 12:09:07 AM DEBUG New Inferencer EfficientNet created 
+30/12/23 12:09:07 AM DEBUG generating resut with EfficientNet for q-pathC:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\queries, t-pathC:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\targets
+30/12/23 12:09:10 AM DEBUG result done for 0-th row for query
+30/12/23 12:09:10 AM DEBUG result done for 1-th row for query
+30/12/23 12:09:10 AM DEBUG result done for 2-th row for query
+30/12/23 12:09:10 AM DEBUG result done for 3-th row for query
+30/12/23 12:09:10 AM DEBUG result done for 4-th row for query
+30/12/23 12:09:10 AM DEBUG result done for 5-th row for query
+30/12/23 12:09:10 AM DEBUG result done for 6-th row for query
+30/12/23 12:09:10 AM DEBUG result done for 7-th row for query
+30/12/23 12:09:10 AM DEBUG result done for 8-th row for query
+30/12/23 12:09:10 AM DEBUG result done for 9-th row for query
+30/12/23 12:09:10 AM DEBUG result done for 10-th row for query
+30/12/23 12:09:10 AM DEBUG result done for 11-th row for query
+30/12/23 12:09:11 AM DEBUG result done for 12-th row for query
+30/12/23 12:09:11 AM DEBUG result done for 13-th row for query
+30/12/23 12:09:11 AM DEBUG result done for 14-th row for query
+30/12/23 12:09:11 AM DEBUG result done for 15-th row for query
+30/12/23 12:09:11 AM DEBUG result done for 16-th row for query
+30/12/23 12:09:11 AM DEBUG result done for 17-th row for query
+30/12/23 12:09:11 AM DEBUG result done for 18-th row for query
+30/12/23 12:09:11 AM DEBUG result done for 19-th row for query
+30/12/23 12:09:11 AM DEBUG result done for 20-th row for query
+30/12/23 12:09:11 AM DEBUG result done for 21-th row for query
+30/12/23 12:09:11 AM DEBUG result done for 22-th row for query
+30/12/23 12:09:11 AM DEBUG result done for 23-th row for query
+30/12/23 12:09:11 AM DEBUG result done for 24-th row for query
+30/12/23 12:09:11 AM DEBUG result done for 25-th row for query
+30/12/23 12:09:12 AM DEBUG result done for 26-th row for query
+30/12/23 12:09:12 AM DEBUG result done for 27-th row for query
+30/12/23 12:09:12 AM DEBUG result done for 28-th row for query
+30/12/23 12:09:12 AM DEBUG result done for 29-th row for query
+30/12/23 12:09:12 AM DEBUG result done for 30-th row for query
+03/01/24 11:57:16 AM DEBUG Opened App
+03/01/24 11:57:40 AM DEBUG Selected file C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\targets
+03/01/24 11:57:45 AM DEBUG Selected file C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\queries
+03/01/24 11:57:47 AM DEBUG Model EfficientNet created 
+03/01/24 11:57:51 AM DEBUG New Inferencer EfficientNet created 
+03/01/24 11:57:51 AM DEBUG generating resut with EfficientNet for q-pathC:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\queries, t-pathC:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\targets
+03/01/24 11:57:53 AM DEBUG result done for 0-th row for query
+03/01/24 11:57:54 AM DEBUG result done for 1-th row for query
+03/01/24 11:57:54 AM DEBUG result done for 2-th row for query
+03/01/24 11:57:54 AM DEBUG result done for 3-th row for query
+03/01/24 11:57:54 AM DEBUG result done for 4-th row for query
+03/01/24 11:57:54 AM DEBUG result done for 5-th row for query
+03/01/24 11:57:54 AM DEBUG result done for 6-th row for query
+03/01/24 11:57:54 AM DEBUG result done for 7-th row for query
+03/01/24 11:57:54 AM DEBUG result done for 8-th row for query
+03/01/24 11:57:54 AM DEBUG result done for 9-th row for query
+03/01/24 11:57:54 AM DEBUG result done for 10-th row for query
+03/01/24 11:57:54 AM DEBUG result done for 11-th row for query
+03/01/24 11:57:54 AM DEBUG result done for 12-th row for query
+03/01/24 11:57:54 AM DEBUG result done for 13-th row for query
+03/01/24 11:57:54 AM DEBUG result done for 14-th row for query
+03/01/24 11:57:55 AM DEBUG result done for 15-th row for query
+03/01/24 11:57:55 AM DEBUG result done for 16-th row for query
+03/01/24 11:57:55 AM DEBUG result done for 17-th row for query
+03/01/24 11:57:55 AM DEBUG result done for 18-th row for query
+03/01/24 11:57:55 AM DEBUG result done for 19-th row for query
+03/01/24 11:57:55 AM DEBUG result done for 20-th row for query
+03/01/24 11:57:55 AM DEBUG result done for 21-th row for query
+03/01/24 11:57:55 AM DEBUG result done for 22-th row for query
+03/01/24 11:57:55 AM DEBUG result done for 23-th row for query
+03/01/24 11:57:56 AM DEBUG result done for 24-th row for query
+03/01/24 11:57:56 AM DEBUG result done for 25-th row for query
+03/01/24 11:57:56 AM DEBUG result done for 26-th row for query
+03/01/24 11:57:56 AM DEBUG result done for 27-th row for query
+03/01/24 11:57:56 AM DEBUG result done for 28-th row for query
+03/01/24 11:57:56 AM DEBUG result done for 29-th row for query
+03/01/24 11:57:57 AM DEBUG result done for 30-th row for query
+03/01/24 11:58:43 AM DEBUG Opened App
+04/01/24 02:24:51 AM DEBUG Opened App
+04/01/24 02:25:03 AM DEBUG Selected file C:\Users\kit97\Downloads\T
+04/01/24 02:25:11 AM DEBUG Selected file C:\Users\kit97\Downloads\Q
+04/01/24 02:25:14 AM DEBUG Model EfficientNet created 
+04/01/24 02:29:18 AM DEBUG Opened App
+04/01/24 02:29:36 AM DEBUG Selected file C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\targets
+04/01/24 02:29:42 AM DEBUG Selected file C:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\queries
+04/01/24 02:29:43 AM DEBUG Model EfficientNet created 
+04/01/24 02:29:46 AM DEBUG New Inferencer EfficientNet created 
+04/01/24 02:29:46 AM DEBUG generating resut with EfficientNet for q-pathC:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\queries, t-pathC:\Users\kit97\Documents\GitHub\ImageMatching\data\UNIQOExample\targets
+04/01/24 02:29:49 AM DEBUG result done for 0-th row for query
+04/01/24 02:29:49 AM DEBUG result done for 1-th row for query
+04/01/24 02:29:49 AM DEBUG result done for 2-th row for query
+04/01/24 02:29:49 AM DEBUG result done for 3-th row for query
+04/01/24 02:29:49 AM DEBUG result done for 4-th row for query
+04/01/24 02:29:49 AM DEBUG result done for 5-th row for query
+04/01/24 02:29:49 AM DEBUG result done for 6-th row for query
+04/01/24 02:29:49 AM DEBUG result done for 7-th row for query
+04/01/24 02:29:49 AM DEBUG result done for 8-th row for query
+04/01/24 02:29:49 AM DEBUG result done for 9-th row for query
+04/01/24 02:29:49 AM DEBUG result done for 10-th row for query
+04/01/24 02:29:49 AM DEBUG result done for 11-th row for query
+04/01/24 02:29:49 AM DEBUG result done for 12-th row for query
+04/01/24 02:29:49 AM DEBUG result done for 13-th row for query
+04/01/24 02:29:49 AM DEBUG result done for 14-th row for query
+04/01/24 02:29:49 AM DEBUG result done for 15-th row for query
+04/01/24 02:29:49 AM DEBUG result done for 16-th row for query
+04/01/24 02:29:50 AM DEBUG result done for 17-th row for query
+04/01/24 02:29:50 AM DEBUG result done for 18-th row for query
+04/01/24 02:29:50 AM DEBUG result done for 19-th row for query
+04/01/24 02:29:50 AM DEBUG result done for 20-th row for query
+04/01/24 02:29:50 AM DEBUG result done for 21-th row for query
+04/01/24 02:29:50 AM DEBUG result done for 22-th row for query
+04/01/24 02:29:50 AM DEBUG result done for 23-th row for query
+04/01/24 02:29:50 AM DEBUG result done for 24-th row for query
+04/01/24 02:29:50 AM DEBUG result done for 25-th row for query
+04/01/24 02:29:50 AM DEBUG result done for 26-th row for query
+04/01/24 02:29:50 AM DEBUG result done for 27-th row for query
+04/01/24 02:29:50 AM DEBUG result done for 28-th row for query
+04/01/24 02:29:50 AM DEBUG result done for 29-th row for query
+04/01/24 02:29:50 AM DEBUG result done for 30-th row for query
+04/01/24 02:30:17 AM DEBUG Opened App
+04/01/24 02:30:26 AM DEBUG Selected file C:\Users\kit97\Downloads\T
+04/01/24 02:30:30 AM DEBUG Selected file C:\Users\kit97\Downloads\Q
+04/01/24 02:30:32 AM DEBUG Model EfficientNet created 
+04/01/24 02:33:01 AM DEBUG Opened App
+04/01/24 02:33:08 AM DEBUG Selected file C:\Users\kit97\Downloads\T
+04/01/24 02:33:12 AM DEBUG Selected file C:\Users\kit97\Downloads\Q
+04/01/24 02:33:14 AM DEBUG Model EfficientNet created 
+04/01/24 02:34:29 AM DEBUG Selected file C:\Users\kit97\Downloads\T
+04/01/24 02:35:33 AM DEBUG Opened App
+04/01/24 02:35:39 AM DEBUG Selected file C:\Users\kit97\Downloads\T
+04/01/24 02:35:43 AM DEBUG Selected file C:\Users\kit97\Downloads\Q
+04/01/24 02:35:45 AM DEBUG Model EfficientNet created 
+04/01/24 02:36:32 AM DEBUG Selected file C:\Users\kit97\Downloads\Q
+04/01/24 02:36:37 AM DEBUG Selected file C:\Users\kit97\Downloads\T
+04/01/24 02:38:45 AM DEBUG Opened App
+04/01/24 02:38:51 AM DEBUG Selected file C:\Users\kit97\Downloads\T
+04/01/24 02:38:55 AM DEBUG Selected file C:\Users\kit97\Downloads\Q
+04/01/24 02:39:00 AM DEBUG Model EfficientNet created 
+04/01/24 02:39:04 AM DEBUG New Inferencer EfficientNet created 
+04/01/24 02:39:04 AM DEBUG generating resut with EfficientNet for q-pathC:\Users\kit97\Downloads\Q, t-pathC:\Users\kit97\Downloads\T
+04/01/24 02:39:06 AM DEBUG result done for 0-th row for query
+04/01/24 02:39:06 AM DEBUG result done for 1-th row for query
+04/01/24 02:39:06 AM DEBUG result done for 2-th row for query
+04/01/24 02:39:06 AM DEBUG result done for 3-th row for query
+04/01/24 02:39:07 AM DEBUG result done for 4-th row for query
+04/01/24 02:39:07 AM DEBUG result done for 5-th row for query
+04/01/24 02:39:07 AM DEBUG result done for 6-th row for query
+04/01/24 02:39:07 AM DEBUG result done for 7-th row for query
+04/01/24 02:39:07 AM DEBUG result done for 8-th row for query
+04/01/24 02:39:07 AM DEBUG result done for 9-th row for query
+04/01/24 02:39:08 AM DEBUG result done for 10-th row for query
+04/01/24 02:39:08 AM DEBUG result done for 11-th row for query
+04/01/24 02:39:08 AM DEBUG result done for 12-th row for query
+04/01/24 02:39:08 AM DEBUG result done for 13-th row for query
+04/01/24 02:39:08 AM DEBUG result done for 14-th row for query
+04/01/24 02:39:09 AM DEBUG result done for 15-th row for query
+04/01/24 02:39:09 AM DEBUG result done for 16-th row for query
+04/01/24 02:55:19 AM DEBUG Selected file C:\Users\kit97\Downloads\T2
+04/01/24 02:55:20 AM DEBUG generating resut with EfficientNet for q-pathC:\Users\kit97\Downloads\Q, t-pathC:\Users\kit97\Downloads\T2
+04/01/24 02:55:22 AM DEBUG result done for 0-th row for query
+04/01/24 02:55:22 AM DEBUG result done for 1-th row for query
+04/01/24 02:55:22 AM DEBUG result done for 2-th row for query
+04/01/24 02:55:23 AM DEBUG result done for 3-th row for query
+04/01/24 02:55:23 AM DEBUG result done for 4-th row for query
+04/01/24 02:55:23 AM DEBUG result done for 5-th row for query
+04/01/24 02:55:23 AM DEBUG result done for 6-th row for query
+04/01/24 02:55:23 AM DEBUG result done for 7-th row for query
+04/01/24 02:55:23 AM DEBUG result done for 8-th row for query
+04/01/24 02:55:24 AM DEBUG result done for 9-th row for query
+04/01/24 02:55:24 AM DEBUG result done for 10-th row for query
+04/01/24 02:55:24 AM DEBUG result done for 11-th row for query
+04/01/24 02:55:24 AM DEBUG result done for 12-th row for query
+04/01/24 02:55:24 AM DEBUG result done for 13-th row for query
+04/01/24 02:55:25 AM DEBUG result done for 14-th row for query
+04/01/24 02:55:25 AM DEBUG result done for 15-th row for query
+04/01/24 02:55:25 AM DEBUG result done for 16-th row for query
+04/01/24 02:55:41 AM DEBUG Opened App
+04/01/24 02:55:46 AM DEBUG Selected file C:\Users\kit97\Downloads\T2
+04/01/24 02:55:50 AM DEBUG Selected file C:\Users\kit97\Downloads\Q
+04/01/24 02:55:53 AM DEBUG Model EfficientNet created 
+04/01/24 02:55:57 AM DEBUG New Inferencer EfficientNet created 
+04/01/24 02:55:57 AM DEBUG generating resut with EfficientNet for q-pathC:\Users\kit97\Downloads\Q, t-pathC:\Users\kit97\Downloads\T2
+04/01/24 02:55:59 AM DEBUG result done for 0-th row for query
+04/01/24 02:55:59 AM DEBUG result done for 1-th row for query
+04/01/24 02:55:59 AM DEBUG result done for 2-th row for query
+04/01/24 02:55:59 AM DEBUG result done for 3-th row for query
+04/01/24 02:55:59 AM DEBUG result done for 4-th row for query
+04/01/24 02:55:59 AM DEBUG result done for 5-th row for query
+04/01/24 02:56:00 AM DEBUG result done for 6-th row for query
+04/01/24 02:56:00 AM DEBUG result done for 7-th row for query
+04/01/24 02:56:00 AM DEBUG result done for 8-th row for query
+04/01/24 02:56:00 AM DEBUG result done for 9-th row for query
+04/01/24 02:56:00 AM DEBUG result done for 10-th row for query
+04/01/24 02:56:00 AM DEBUG result done for 11-th row for query
+04/01/24 02:56:00 AM DEBUG result done for 12-th row for query
+04/01/24 02:56:01 AM DEBUG result done for 13-th row for query
+04/01/24 02:56:01 AM DEBUG result done for 14-th row for query
+04/01/24 02:56:01 AM DEBUG result done for 15-th row for query
+04/01/24 02:56:01 AM DEBUG result done for 16-th row for query
+04/01/24 02:58:26 AM DEBUG Opened App
+04/01/24 02:58:34 AM DEBUG Selected file C:\Users\kit97\Downloads\T2
+04/01/24 02:58:40 AM DEBUG Selected file C:\Users\kit97\Downloads\Q
+04/01/24 02:58:45 AM DEBUG Model EfficientNet created 
+04/01/24 02:58:47 AM DEBUG New Inferencer EfficientNet created 
+04/01/24 02:58:47 AM DEBUG generating resut with EfficientNet for q-pathC:\Users\kit97\Downloads\Q, t-pathC:\Users\kit97\Downloads\T2
+04/01/24 02:58:49 AM DEBUG result done for 0-th row for query
+04/01/24 02:58:49 AM DEBUG result done for 1-th row for query
+04/01/24 02:58:49 AM DEBUG result done for 2-th row for query
+04/01/24 02:58:49 AM DEBUG result done for 3-th row for query
+04/01/24 02:58:50 AM DEBUG result done for 4-th row for query
+04/01/24 02:58:50 AM DEBUG result done for 5-th row for query
+04/01/24 02:58:50 AM DEBUG result done for 6-th row for query
+04/01/24 02:58:50 AM DEBUG result done for 7-th row for query
+04/01/24 02:58:50 AM DEBUG result done for 8-th row for query
+04/01/24 02:58:50 AM DEBUG result done for 9-th row for query
+04/01/24 02:58:51 AM DEBUG result done for 10-th row for query
+04/01/24 02:58:51 AM DEBUG result done for 11-th row for query
+04/01/24 02:58:51 AM DEBUG result done for 12-th row for query
+04/01/24 02:58:51 AM DEBUG result done for 13-th row for query
+04/01/24 02:58:51 AM DEBUG result done for 14-th row for query
+04/01/24 02:58:51 AM DEBUG result done for 15-th row for query
+04/01/24 02:58:51 AM DEBUG result done for 16-th row for query

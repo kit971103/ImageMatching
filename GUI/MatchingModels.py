@@ -1,15 +1,17 @@
-from typing import List
-import torch
-from torch import Tensor, nn, optim
-from torchvision import transforms, models
-
+from typing import Callable, List, Tuple
 from PIL import Image
 from matplotlib import pyplot as plt
 from pathlib import Path
+import csv
+
+import torch
+from torch import Tensor, nn, optim, tensor
+from torchvision import transforms, models
 import pandas as pd
 
 
 class FeaturesExtractor(nn.Module):
+    "FeaturesExtractor intake a tensor repersent a photo are output its feathture"
     def __init__(self, model_constructor, weights=None, frozen=True) -> None:
         """make a model
 
@@ -110,28 +112,104 @@ class PairwiseDotproducts(nn.Module):
         """
         if input.dim() != 2:
             raise NotImplementedError(f"Unexecpted dim of {input.dim()}, should be two")
-        output = torch.mm(input, torch.transpose(input, dim0=0, dim1=1))
-        output = torch.triu(output, diagonal=1).sum()
-        return output
+        #calulation ver2.0 around 25x faster on CPU/GPU
+        vector_sum = input.sum(dim=0)
+        norm_sum=input.square().sum()
+        numer_of_product = input.shape[0]*input.shape[0]-input.shape[0]
+        return (vector_sum.dot(vector_sum)-norm_sum)/numer_of_product
+        
+        #old impletation
+        # output = torch.mm(input, torch.transpose(input, dim0=0, dim1=1))
+        # output = torch.triu(output, diagonal=1).sum()
+        # return output
 
+class Inferencer:
+    "Handle all the calulation, only place to mange inter-CPU/GPU data movement"
+    def __init__(self, model: FeaturesExtractor, query_path:Path, target_path:Path, transform:Callable = None) -> None:
+        self.device = "cuda:0" if torch.cuda.is_available() else "cpu"
+        if transform is not None:
+            self.transform = transform
+        else:
+            self.transform = ToTensor_and_Resize(224)
+        self.transform = ToTensor_and_Resize(224) 
+        self.model = model
+        self.query_files, self.query_tensors = self.load_from_folder(query_path)
+        self.target_files, self.target_tensors = self.load_from_folder(target_path)
 
-def load_test_data(data_path: Path, transforms_needed=None) -> (List[Path], Tensor):
+        self.model.to(self.device)
+        self.query_tensors=self.query_tensors.to(self.device)
+        self.target_tensors = self.target_tensors.to(self.device)
+        
+    def load_from_folder(self, data_path:Path) -> tuple[List[Path],Tensor]:
+        files, ouptus = [], []
+        for file in data_path.glob("*"):
+            files.append(file)
+            ouptus.append(self.transform(Image.open(file)))
+        ouptus = torch.stack(ouptus)
+        return files, ouptus
     
-    if transforms_needed is None:
-        transforms_needed = ToTensor_and_Resize(224)
+    def find_k_most_similar(self, k=5):
+        self.model.eval()
+        if k > len(self.target_files):
+            raise TypeError(f"{k=} is larger then target size={len(self.target_files)}")
+        query_tensors = self.model(self.query_tensors)
+        target_tensors = self.model(self.target_tensors).T
 
-    files = []
-    ouptus = []
-    for file in data_path.glob("*"):
-        files.append(file)
-        ouptus.append(transforms_needed(Image.open(file)))
-    ouptus = torch.stack(ouptus)
+        cos_similaritys, top_classes = torch.mm(query_tensors, target_tensors).topk(k)
+        cos_similaritys = cos_similaritys.tolist()
+        top_classes = top_classes.tolist()
+
+        # I know it can all be done in one-line list comprehension, but for better readability, I kept the loop
+        result = []
+        for query_file, cos_similarity, top_classe in zip(self.query_files, cos_similaritys, top_classes):
+            matching_result = tuple( (sorce, self.target_files[target_index]) for sorce, target_index in zip(cos_similarity, top_classe))
+            result.append((query_file, matching_result))
+        return result
     
-    return files, ouptus
+    def train_model(self):
+            optimizer = optim.Adam(self.model.parameters(), lr=0.0001)
+            criterion = PairwiseDotproducts()
 
+            iter_num = 1
+            for _ in range(iter_num):
+                self.model.train()
+                match_sapce = self.model(self.target_tensors)
+                loss = criterion(match_sapce)
+                optimizer.zero_grad()
+                loss.backward()
+                optimizer.step()
+                
+            self.model.eval()
+
+def load_labeled_data_csv(data_path:Path, transforms_needed=None):
+    
+    with open(data_path/"record.csv") as csvfile:
+        spamreader = csv.reader(csvfile, delimiter=',')
+        label_of= dict((query, target) for query, target in spamreader )
+
+
+    target_tensors, match_files = [], []
+    filename_mapto_index = dict()
+
+    for i, file in enumerate((data_path/"targets").glob("*")):
+        match_files.append(file)
+        target_tensors.append(transforms_needed(Image.open(file)))
+        filename_mapto_index[file.parts[-1]] = i
+    target_tensors = torch.stack(target_tensors)
+    
+    input_tensors, input_files, labels = [], [], []
+    for file in (data_path/"queries").glob("*"):
+        input_files.append(file)
+        input_tensors.append(transforms_needed(Image.open(file)))
+        labels.append(filename_mapto_index[label_of[file.parts[-1]]])
+    input_tensors = torch.stack(input_tensors)
+    labels = tensor(labels).view(-1,1)
+
+    return (input_tensors, input_files, labels), (target_tensors, match_files)
 
 def load_data(data_path, transforms_needed=None):
-    """load data from path
+    """NOT IN USE
+    load data from path
     assume path has this file strure:
     [root path]
         -queries
@@ -175,7 +253,7 @@ def load_data(data_path, transforms_needed=None):
 
 
 def random_sample_form_imagepair_dataset(
-    data_path: Path, validate_csv: Path, n: int, transforms_needed: transforms
+    data_path: Path, validate_csv: Path, n: int, transforms_needed: Callable
 ) -> tuple:
     """load data from data set and csv file for laels
     assume data_path has this file strure:
@@ -219,7 +297,7 @@ def random_sample_form_imagepair_dataset(
 
 
 def error_rate(
-    labels: Tensor, match_labels: Tensor, outputs: Tensor, match_sapce: Tensor, k=2
+    labels: Tensor, outputs: Tensor, match_sapce: Tensor, k=2
 ):
     """return topk_error_rate, (cos_similaritys, top_classes)
 
@@ -230,8 +308,7 @@ def error_rate(
     cos_similaritys, top_classes = torch.mm(outputs, match_sapce).topk(k)
 
     # match the predecition(index of match_sapce) to file name of match samples
-    topk_error_rate = top_classes.clone().detach().to("cpu")
-    topk_error_rate.apply_(lambda x: match_labels[x])  # convert from index to file name
+    topk_error_rate = top_classes.clone()
     topk_error_rate = torch.any(topk_error_rate == labels, dim=1)  # the correct rate
     topk_error_rate = 1 - (topk_error_rate.sum() / topk_error_rate.shape[0]).item()
 
@@ -239,13 +316,11 @@ def error_rate(
 
 
 def ToTensor_and_Resize(n):
-    transforms_needed = transforms.Compose(
-        [
-            transforms.ToTensor(),
-            transforms.Resize(n, antialias=True),
-            transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225]),
-        ]
-    )
+    transforms_needed = transforms.Compose([
+        transforms.ToTensor(),
+        transforms.Resize((n,n), antialias=True),
+        transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225]),
+    ])
     return transforms_needed
 
 
@@ -254,7 +329,6 @@ def model_trainer(
     inputs: Tensor,
     match_targets: Tensor,
     labels: Tensor,
-    match_labels: Tensor,
     k_in_topk=5,
     iter_num=15,
     learn_rate=0.00005,
@@ -281,7 +355,7 @@ def model_trainer(
     with torch.no_grad():
         model.eval()
         topk_error_rate, _ = error_rate(
-            labels, match_labels, model(inputs), model(match_targets), k=k_in_topk
+            labels, model(inputs), model(match_targets), k=k_in_topk
         )
         error_rate_tracking.append(topk_error_rate)
 
@@ -300,7 +374,7 @@ def model_trainer(
         with torch.no_grad():
             model.eval()
             topk_error_rate, _ = error_rate(
-                labels, match_labels, model(inputs), model(match_targets), k=5
+                labels, model(inputs), model(match_targets), k=k_in_topk
             )
             error_rate_tracking.append(topk_error_rate)
 
@@ -310,53 +384,9 @@ def model_trainer(
     return loss_tracking, error_rate_tracking
 
 
-def show_helper(
-    title: str,
-    input_files: list[Path],
-    labels: Tensor,
-    top_classes: Tensor,
-    match_files: list[Path],
-    max_shown_entry=5,
-):
-    """helper for shwon result
-    ------------------------------------------
-    Args:
-        title (str): the title of chart, usually the model name
-        input_files (list[Path]): the querys photos
-        labels (Tensor): the labels of querys photos, same length as input_files
-        top_classes (Tensor): the topk predication of querys photos, same length as input_files
-        match_files (list[Path]): the target photos, index match with top_classes
-        max_shown_entry (int, optional): How many photo to shown. Defaults to 5.
-    """
-    for i, (input_file, label, top_class) in enumerate(
-        zip(input_files, labels, top_classes)
-    ):
-        if i == max_shown_entry:
-            break
-        top_class = top_class.tolist()
-        fig = plt.figure(figsize=(10, 7))
-
-        qax = fig.add_subplot(1, len(top_class) + 2, 1)
-        qax.axis("off")
-        qax.set_title(title)
-        plt.imshow(Image.open(input_file))
-
-        qax = fig.add_subplot(1, len(top_class) + 2, 2)
-        qax.axis("off")
-        qax.set_title("label")
-        plt.imshow(Image.open(match_files[0].parent / (str(label.item()) + ".jpg")))
-
-        for i, predecition in enumerate(top_class, 3):
-            predecition = Image.open(match_files[predecition])
-            newax = fig.add_subplot(1, len(top_class) + 2, i)
-            newax.set_title(f"top {i-2}")
-            newax.axis("off")
-            plt.imshow(predecition)
-
-
 models_list = dict(
     AlexNet=models.alexnet,
-    ConvNeXt=models.convnext_tiny,
+    ConvNeXt=models.convnext_base,
     EfficientNet=models.efficientnet_b0,
     GoogLeNet=models.googlenet,
 )
