@@ -843,3 +843,26 @@ DEBUG:root:Selected file C:/Users/kit97/Downloads/Jobs/merieux - Lab Tech
 04/01/24 02:58:51 AM DEBUG result done for 14-th row for query
 04/01/24 02:58:51 AM DEBUG result done for 15-th row for query
 04/01/24 02:58:51 AM DEBUG result done for 16-th row for query
+04/01/24 03:00:32 AM DEBUG Opened App
+04/01/24 03:00:42 AM DEBUG Selected file C:\Users\kit97\Downloads\T2
+04/01/24 03:00:46 AM DEBUG Selected file C:\Users\kit97\Downloads\Q
+04/01/24 03:00:48 AM DEBUG Model EfficientNet created 
+04/01/24 03:00:51 AM DEBUG New Inferencer EfficientNet created 
+04/01/24 03:00:51 AM DEBUG generating resut with EfficientNet for q-pathC:\Users\kit97\Downloads\Q, t-pathC:\Users\kit97\Downloads\T2
+04/01/24 03:00:52 AM DEBUG result done for 0-th row for query
+04/01/24 03:00:52 AM DEBUG result done for 1-th row for query
+04/01/24 03:00:53 AM DEBUG result done for 2-th row for query
+04/01/24 03:00:53 AM DEBUG result done for 3-th row for query
+04/01/24 03:00:53 AM DEBUG result done for 4-th row for query
+04/01/24 03:00:53 AM DEBUG result done for 5-th row for query
+04/01/24 03:00:53 AM DEBUG result done for 6-th row for query
+04/01/24 03:00:53 AM DEBUG result done for 7-th row for query
+04/01/24 03:00:54 AM DEBUG result done for 8-th row for query
+04/01/24 03:00:54 AM DEBUG result done for 9-th row for query
+04/01/24 03:00:54 AM DEBUG result done for 10-th row for query
+04/01/24 03:00:54 AM DEBUG result done for 11-th row for query
+04/01/24 03:00:54 AM DEBUG result done for 12-th row for query
+04/01/24 03:00:54 AM DEBUG result done for 13-th row for query
+04/01/24 03:00:55 AM DEBUG result done for 14-th row for query
+04/01/24 03:00:55 AM DEBUG result done for 15-th row for query
+04/01/24 03:00:55 AM DEBUG result done for 16-th row for query
